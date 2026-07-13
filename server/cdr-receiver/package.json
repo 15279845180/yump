@@ -1,0 +1,16 @@
+{
+  "name": "cdr-receiver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cdr-receiver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^7.0.1",
+    "mysql2": "^3.22.5"
+  }
+}
