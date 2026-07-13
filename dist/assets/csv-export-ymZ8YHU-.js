@@ -1,4 +1,0 @@
-import{l as e}from"./index-15rq1iM-.js";function t(t,r,i){if(!i||i.length===0){e.warning(`没有数据可导出`);return}let a=r.map(e=>n(e.label,`,`)).join(`,`),o=i.map(e=>r.map(t=>{let r=e[t.prop];return t.formatter&&(r=t.formatter(e)),r??=``,n(String(r),`,`)}).join(`,`)),s=`﻿`+a+`
-`+o.join(`
-`),c=new Blob([s],{type:`text/csv;charset=utf-8;`}),l=URL.createObjectURL(c),u=document.createElement(`a`);u.href=l;let d=new Date;u.download=`${t}_${`${d.getFullYear()}${String(d.getMonth()+1).padStart(2,`0`)}${String(d.getDate()).padStart(2,`0`)}_${String(d.getHours()).padStart(2,`0`)}${String(d.getMinutes()).padStart(2,`0`)}${String(d.getSeconds()).padStart(2,`0`)}`}.csv`,document.body.appendChild(u),u.click(),document.body.removeChild(u),URL.revokeObjectURL(l)}function n(e,t){let n=String(e??``);return n.includes(t)||n.includes(`"`)||n.includes(`
-`)||n.includes(`\r`)?`"`+n.replace(/"/g,`""`)+`"`:n}export{t};
