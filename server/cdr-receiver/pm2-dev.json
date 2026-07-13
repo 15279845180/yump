@@ -1,0 +1,15 @@
+﻿{
+    "apps":  [
+                 {
+                     "name":  "cdr-receiver",
+                     "script":  "D:/code/php/yump/server/cdr-receiver/cdr-receiver.js",
+                     "watch":  false,
+                     "autorestart":  true,
+                     "args":  "5140",
+                     "instances":  1,
+                     "env":  {
+                                 "YUMP_DB_PASSWORD":  "YJjTnbrM4ERWxsSt"
+                             }
+                 }
+             ]
+}
