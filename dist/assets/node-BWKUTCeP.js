@@ -1,0 +1,1 @@
+import{t as e}from"./request-CENBpNyp.js";var t={list:()=>e.get(`/nodes`),get:t=>e.get(`/nodes/${t}`),create:t=>e.post(`/nodes`,t),update:(t,n)=>e.put(`/nodes/${t}`,n),delete:t=>e.delete(`/nodes/${t}`),test:t=>e.post(`/nodes/test`,t),check:t=>e.post(`/nodes/${t}/status`),syncRates:t=>e.post(`/nodes/${t}/sync-rates`),performance:t=>e.post(`/nodes/${t}/performance`)};export{t};

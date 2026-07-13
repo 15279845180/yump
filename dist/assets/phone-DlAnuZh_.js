@@ -1,0 +1,1 @@
+import{t as e}from"./request-CENBpNyp.js";var t={list:t=>e.post(`/vos/${t}/phone/list`),online:t=>e.post(`/vos/${t}/phone/online`),sync:t=>e.post(`/vos/${t}/phone/sync`),create:(t,n)=>e.post(`/vos/${t}/phone/create`,n),modify:(t,n)=>e.post(`/vos/${t}/phone/modify`,n),delete:(t,n)=>e.post(`/vos/${t}/phone/delete`,{e164:n}),accounts:t=>e.post(`/vos/${t}/phone/accounts`)};export{t};

@@ -1,0 +1,1 @@
+import{t as e}from"./request-CENBpNyp.js";var t={list:()=>e.get(`/fee-rates`),create:t=>e.post(`/fee-rates`,t),update:(t,n)=>e.put(`/fee-rates/${t}`,n),delete:t=>e.delete(`/fee-rates/${t}`),accounts:(t,n)=>e.get(`/fee-rates/${t}/accounts/${encodeURIComponent(n)}`)};export{t};

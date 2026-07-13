@@ -1,0 +1,18 @@
+{
+  "name": "VOS3000 软电话",
+  "short_name": "软电话",
+  "description": "VOS3000 多节点管理平台 — WebRTC 软电话",
+  "start_url": "/standalone/softphone",
+  "scope": "/standalone/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8f7fa",
+  "theme_color": "#5b4abf",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
